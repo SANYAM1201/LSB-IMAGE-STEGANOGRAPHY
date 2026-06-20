@@ -111,7 +111,7 @@ PROJECT_ROOT = os.path.dirname(BASE_DIR)
 
 INPUT_IMAGE = os.path.join(
     PROJECT_ROOT,
-    "examples"
+    "examples",
     "input.png"
 )
 

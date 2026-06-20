@@ -89,22 +89,33 @@ The system leverages the Least Significant Bit of RGB pixel channels to store me
 
 
 
-Installation
+## Installation
 
 pip install -r requirements.txt
 
 
 
-Run
+## Run
 
 python src/project.py
 
 
+## Demo
 
-Menu
+### Menu
 
-1. Encode Message
-2. Decode Message
-3. Exit
+![Menu](screenshots/menu.png)
+
+### Encoding
+
+![Encoding](screenshots/encode.png)
+
+### Decoding
+
+![Decoding](screenshots/decode.png)
+
+### Image Comparison
+
+![Comparison](screenshots/comparison.png)
 
 
