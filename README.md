@@ -1,4 +1,5 @@
-\# LSB Image Steganography
+
+# LSB Image Steganography
 
 
 
@@ -10,27 +11,27 @@ Unlike conventional text storage methods, the hidden message is encoded directly
 
 
 
-\## Key Features
+## Key Features
 
 
 
-\* Lossless PNG-based steganography
+* Lossless PNG-based steganography
 
-\* Pixel-level LSB encoding and decoding
+* Pixel-level LSB encoding and decoding
 
-\* Exact payload recovery using a binary length header
+* Exact payload recovery using a binary length header
 
-\* UTF-8 text support
+* UTF-8 text support
 
-\* Capacity validation to prevent overflow
+* Capacity validation to prevent overflow
 
-\* Portable Python implementation using Pillow
+* Portable Python implementation using Pillow
 
-\* User-friendly command-line interface
+* User-friendly command-line interface
 
 
 
-\## Technical Overview
+## Technical Overview
 
 
 
@@ -38,53 +39,53 @@ The system leverages the Least Significant Bit of RGB pixel channels to store me
 
 
 
-\### Encoding Pipeline
+### Encoding Pipeline
 
 
 
-1\. Convert the secret message into UTF-8 bytes.
+1. Convert the secret message into UTF-8 bytes.
 
-2\. Generate a 32-bit payload length header.
+2. Generate a 32-bit payload length header.
 
-3\. Transform the payload into a binary bit stream.
+3. Transform the payload into a binary bit stream.
 
-4\. Embed bits into the least significant bits of RGB channels.
+4. Embed bits into the least significant bits of RGB channels.
 
-5\. Save the modified image as a lossless PNG.
-
-
-
-\### Decoding Pipeline
+5. Save the modified image as a lossless PNG.
 
 
 
-1\. Read the LSBs from RGB channels.
-
-2\. Extract the 32-bit payload length header.
-
-3\. Recover the payload bits.
-
-4\. Reconstruct the original UTF-8 message.
-
-5\. Display the decoded text.
+### Decoding Pipeline
 
 
 
-\## Applications
+1. Read the LSBs from RGB channels.
+
+2. Extract the 32-bit payload length header.
+
+3. Recover the payload bits.
+
+4. Reconstruct the original UTF-8 message.
+
+5. Display the decoded text.
 
 
 
-\* Secure information concealment
+## Applications
 
-\* Digital watermarking research
 
-\* Information security education
 
-\* Steganography demonstrations
+* Secure information concealment
 
-\* Image processing experiments
+* Digital watermarking research
 
-\* Cybersecurity learning projects
+* Information security education
+
+* Steganography demonstrations
+
+* Image processing experiments
+
+* Cybersecurity learning projects
 
 
 
@@ -105,4 +106,8 @@ Menu
 1. Encode Message
 2. Decode Message
 3. Exit
+
+
+# LSB-IMAGE-STEGANOGRAPHY
+Lossless PNG steganography tool implementing Least Significant Bit (LSB) encoding for secure, imperceptible text embedding and exact payload recovery.
 
