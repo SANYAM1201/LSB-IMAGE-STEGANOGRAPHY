@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 Run
 
-python project.py
+python src/project.py
 
 
 

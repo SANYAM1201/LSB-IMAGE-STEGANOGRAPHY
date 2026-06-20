@@ -107,13 +107,17 @@ BASE_DIR = os.path.dirname(
     os.path.abspath(__file__)
 )
 
+PROJECT_ROOT = os.path.dirname(BASE_DIR)
+
 INPUT_IMAGE = os.path.join(
-    BASE_DIR,
+    PROJECT_ROOT,
+    "examples"
     "input.png"
 )
 
 STEGO_IMAGE = os.path.join(
-    BASE_DIR,
+    PROJECT_ROOT,
+    "examples",
     "stego.png"
 )
 
