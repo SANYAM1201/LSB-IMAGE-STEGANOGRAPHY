@@ -12,16 +12,19 @@ Complementing the embedding process, the steganalysis module provides forensic t
 
 ## 🚀 Project Workflow
 
+## 🚀 Project Workflow
+
+```mermaid
 flowchart TD
     A[Secret Message] --> B[LSB Steganography]
     B --> C[Stego Image]
 
     C --> D[Message Recovery]
-
     C --> E[LSB Steganalysis]
 
     E --> F[LSB Bit-Plane Extraction]
     E --> G[Histogram Analysis]
+```
 
 
 
