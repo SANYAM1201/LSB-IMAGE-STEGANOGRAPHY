@@ -12,7 +12,7 @@ Complementing the embedding process, the steganalysis module provides forensic t
 
 ## 🚀 Project Workflow
 
-
+flowchart TD
     A[Secret Message] --> B[LSB Steganography]
     B --> C[Stego Image]
 
