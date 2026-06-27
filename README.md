@@ -117,8 +117,8 @@ LSB-IMAGE-STEGANOGRAPHY-AND-STEGANALYSIS/
 │   └── histogram_difference.png
 │
 ├── src/
-│   ├── lsb.py
-│   ├── lsb_steganalysis.py
+│   ├── steganography.py
+│   ├── steganalysis.py
 │   └── main.py
 │
 ├── README.md
@@ -141,13 +141,13 @@ pip install -r requirements.txt
 ### Steganography
 
 ```bash
-python src/lsb.py
+python src/steganography.py
 ```
 
 ### Steganalysis
 
 ```bash
-python src/steganalysis_main.py
+python src/main.py
 ```
 
 ---

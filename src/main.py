@@ -1,5 +1,5 @@
 import os
-from lsb_steganalysis import LSBSteganalysis
+from steganalysis import LSBSteganalysis
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
