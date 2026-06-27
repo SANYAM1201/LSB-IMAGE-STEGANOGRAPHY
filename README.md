@@ -147,7 +147,7 @@ python src/lsb.py
 ### Steganalysis
 
 ```bash
-python src/main.py
+python src/steganalysis_main.py
 ```
 
 ---
