@@ -10,22 +10,21 @@ Complementing the embedding process, the steganalysis module provides forensic t
 
 ## 🚀 Project Workflow
 
+## 🚀 Project Workflow
 
-                 Secret Message
-                        │
-                        ▼
-              LSB Steganography
-                        │
-                        ▼
-                  Stego Image
-                        │
-        ┌───────────────┴───────────────┐
-        ▼                               ▼
- Message Recovery              LSB Steganalysis
-                                        │
-                ┌───────────────────────┴──────────────────────┐
-                ▼                                              ▼
-      LSB Bit-Plane Extraction                     Histogram Analysis
+
+    A[Secret Message] --> B[LSB Steganography]
+    B --> C[Stego Image]
+
+    C --> D[Message Recovery]
+
+    C --> E[LSB Steganalysis]
+
+    E --> F[LSB Bit-Plane Extraction]
+    E --> G[Histogram Analysis]
+
+
+
 
 
 ---
