@@ -8,9 +8,6 @@ Complementing the embedding process, the steganalysis module provides forensic t
 
 ---
 
-## 🚀 Project Workflow
-
-## 🚀 Project Workflow
 
 ## 🚀 Project Workflow
 
